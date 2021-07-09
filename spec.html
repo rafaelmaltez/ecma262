@@ -14658,7 +14658,7 @@
 
       <emu-clause id="sec-static-semantics-tv-and-trv">
         <h1>Static Semantics: TV and TRV</h1>
-        <p>A template literal component is interpreted by TV and TRV as a value of the String type. In TV, escape sequences are replaced by the UTF-16 code unit(s) of the Unicode code point represented by the escape sequence. TRV is similar to TV with the difference being that in TRV, escape sequences are interpreted as they appear in the literal.</p>
+        <p>A template literal component is interpreted by TV and TRV as a value of the String type. TV is used to construct the indexed components of a template object, and TRV is used to construct their raw counterparts. In TV, escape sequences are replaced by the UTF-16 code unit(s) of the Unicode code point represented by the escape sequence. TRV is similar to TV with the difference being that in TRV, escape sequences are interpreted as they appear in the literal.</p>
         <ul>
           <li>
             The TV and TRV of <emu-grammar>NoSubstitutionTemplate :: ``` ```</emu-grammar> is the empty String.
