@@ -2,36 +2,38 @@
 ECMAScript
 ====
 
-## This repo
+## Sobre esse repositório:
 
-This repository contains the source for the current draft of ECMA-262,
-the ECMAScript® Language Specification.
+Esse repositório contem a fonte do esboço atual do ECMA-262,
+a Especificação da Linguagem ECMAScript®.
 
-This source is processed to obtain a human-readable version,
-which you can view [here](https://tc39.es/ecma262/).
+Essa fonte é processada para obter uma versão humanamente legivel,
+que você pode ver [aqui](https://tc39.es/ecma262/).
 
-If you want to explore how the specification was written, you can also view the source with its history in [searchfox](https://searchfox.org/ecma262/source/spec.html).
+Caso queira explorar como a especificação foi escrita, você também pode ver essa fonte e seu histórico em [searchfox](https://searchfox.org/ecma262/source/spec.html).
 
-## Current Proposals
+## Propostas atuais:
 
-Proposals follow [the TC39 process](https://tc39.es/process-document/) and are tracked in the [proposals repository](https://github.com/tc39/proposals).
+Propostas seguem [o orocesso do TC39](https://tc39.es/process-document/) e podem ser acompanhadas no [repositório de propostas](https://github.com/tc39/proposals).
 
-* [Finished Proposals](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
-* [Active Proposals](https://github.com/tc39/proposals)
-* [Stage 1 Proposals](https://github.com/tc39/proposals/blob/master/stage-1-proposals.md)
-* [Stage 0 Proposals](https://github.com/tc39/proposals/blob/master/stage-0-proposals.md)
-* [Inactive Proposals](https://github.com/tc39/proposals/blob/master/inactive-proposals.md)
+* [Propostas Finalizadas](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
+* [Propostas Ativas](https://github.com/tc39/proposals)
+* [Propostas no Estágio 1](https://github.com/tc39/proposals/blob/master/stage-1-proposals.md)
+* [Propostas no Estágio 0](https://github.com/tc39/proposals/blob/master/stage-0-proposals.md)
+* [Propostas Inativas](https://github.com/tc39/proposals/blob/master/inactive-proposals.md)
 
-### Contributing New Proposals
+### Contruibuindo com Novas Propostas:
 
-Please see [Contributing to ECMAScript](/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
+Por favor dê uma olhada em  [Contribuindo com o ECMAScript](/CONTRIBUTING.md) para a informação mais atualizada sobre como contribuir com esse padrão.
 
-## Developing the Specification
 
-After cloning, do `npm install` to set up your environment. You can then do `npm run build` to build the spec or `npm run watch` to set up a continuous build. The results will appear in the `out` directory, which you can use `npm run clean` to delete.
 
-## Community
+## Desenvolvendo a especificação:
 
-* [ES discourse](https://es.discourse.group/): Discourse for ECMAScript discussion and questions
-* [Es-discuss mailing list](https://esdiscuss.org): Mailing list for ECMAScript discussions
-* IRC: #tc39 on Freenode ([instructions](https://freenode.net/kb/answer/chat))
+Após clonar, execute `npm install`  para preparar seu ambiente. Você pode então executar `npm run build` para realizar o build da especificação ou `npm run watch` para configurar um build contínuo. os resultados vão aparecer no diretório `out`, que você pode usar `npm run clean` para deletar.
+
+## Comunidade:
+
+* [Discouse do ES](https://es.discourse.group/): Discourse para discussão e perguntas sobre ECMAScript
+* [Lista de e-mail para discussões ES](https://esdiscuss.org): Lista de e-mail para discussão sobre ECMAScript
+* IRC: #tc39 no Freenode ([instruções](https://freenode.net/kb/answer/chat))
